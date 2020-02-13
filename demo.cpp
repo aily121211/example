@@ -24,9 +24,10 @@ private:
 
 void func();
 
-
 int main() {
     func();
+    Name mj("Michael", "Jackson");
+    cout << mj.firstName << "-" << mj.lastName << endl;
     return 0;
 }
 
